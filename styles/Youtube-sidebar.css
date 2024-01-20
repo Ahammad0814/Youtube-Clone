@@ -1,0 +1,32 @@
+.sidebar-div img{
+    width: 28px;
+}
+.sidebar-div p{
+    line-height: 0px;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+}
+.sidebar-div button{
+    width: 75px;
+    height: 80px;
+    background-color: transparent;
+    border: none;
+}
+.sidebar-div button:hover{
+    background-color: rgba(211, 211, 211, 0.568);
+    border-radius: 10px;
+}
+.sidebar-div button:active{
+    background-color: lightgrey;
+}
+.sidebar-div{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    top:53px;
+    width: 75px;
+    height: 100%;
+    z-index: 1;
+    margin-top: 21px;
+}
